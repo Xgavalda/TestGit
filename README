@@ -1,8 +1,20 @@
 "Projecta test sobre GIT!" 
 
 
+
 Com comença un projecta CLONE
 	git clone git@github.com:Xgavalda/TestGit.git
 Com comença un projecta sense CLONAR
 	git init
-	
+
+Com esta les modificacions.
+	git status
+
+Modificacions afegeix les modificacions
+	git add .							"Tots el modificats"
+
+Enviar Modificacions a la CACHE.
+	git commit -m "(msg per que el canvi)"
+
+Enviar al servidor GITHUB.
+	git push							"Versio upload GITHUB"
