@@ -2,21 +2,21 @@
 
 
 Com comença un projecta CLONE
-	git clone git@github.com:Xgavalda/TestGit.git
+  git clone git@github.com:Xgavalda/TestGit.git
 Com comença un projecta sense CLONAR
-	git init
+  git init
 
 Com esta les modificacions.
-	git status
+  git status
 
 Modificacions afegeix les modificacions
-	git add .		"Tots el modificats"
+  git add .   "Tots el modificats"
 
 Enviar Modificacions a la CACHE.
-	git commit -m "(msg per que el canvi)"
+  git commit -m "(msg per que el canvi)"
 
 Enviar al servidor GITHUB.
-	git push		"Versio upload GITHUB"
-							"molts errors"
-							"git config --global push.default matching"
-							"git config --global push.default simple"
+  git push    "Versio upload GITHUB"
+              "molts errors"
+              "git config --global push.default matching"
+              "git config --global push.default simple"
