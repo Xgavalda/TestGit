@@ -11,10 +11,13 @@ Com esta les modificacions.
 	git status
 
 Modificacions afegeix les modificacions
-	git add .							"Tots el modificats"
+	git add .				"Tots el modificats"
 
 Enviar Modificacions a la CACHE.
 	git commit -m "(msg per que el canvi)"
 
 Enviar al servidor GITHUB.
-	git push							"Versio upload GITHUB"
+	git push				"Versio upload GITHUB"
+							"molts errors"
+								"git config --global push.default matching"
+								"git config --global push.default simple"
