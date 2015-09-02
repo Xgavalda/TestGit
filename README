@@ -20,3 +20,18 @@ Enviar al servidor GITHUB.
               "molts errors"
               "git config --global push.default matching"
               "git config --global push.default simple"
+
+Veure tots el LOGS
+  git log
+
+Veure conexions REMOTE
+  git remote add origin [pagina web ssh/https]
+
+Upload a GITHUB
+  git push origin master
+
+
+
+Referencies
+
+URL NETBEANS    http://panamahitek.com/guia-basica-sobre-el-uso-de-git-y-github/
