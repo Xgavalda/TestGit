@@ -1,8 +1,19 @@
 "Projecta test sobre GIT!" 
 
+CONFIGURACIO
+============
+  git config --global user.name "(name)"
+  git config --global user.email "(email)"
+
+Llistat config
+  git config --list
+
+BASIC
+=====
 
 Com comença un projecta CLONE
   git clone git@github.com:Xgavalda/TestGit.git
+
 Com comença un projecta sense CLONAR
   git init
 
@@ -31,7 +42,76 @@ Upload a GITHUB
   git push origin master
 
 
+ALTRES
+======
+Diferencies entre WORK<->CACHE
+  git diff
+
+RM borrar un fitxer
+  git rm <file>
+
+MV Modificar un fitxer
+  git mv ArxiuOriginal ArxiuNouNom
+
+CONTRIBUCIO A UN PROJECTA
+=========================
+
+FORK
+  Pagina web fer un fork del projecta
+
+Clonar
+  git clone <direccio del meu report>
+
+Branca Nova
+  git checkout -b "(Nova Branca)"
+
+Quines branques tenim
+  git branch
+  git branch -a
+
+
+Upload a GITHUB a la nova BRANCA
+  git push origin "(Nova Branca)"
+
+
+PULL REQUEST AL PROJECTA ORIGINAL
+=================================
+
+PAGINA WEB GITHUB
+  [BOTO] PULL REQUEST
+  [BOTO] NEW PULL REQUEST
+  [BOTO] CREATE PULL REQUEST
+
+
+SYNC PROJECTA FORK
+==================
+
+FORK DEL PROJECTA
+  git clone https://github.com/username/proyecto.git
+
+REMOTE (PARE) "upstream"
+  git remote add upstream https://github.com/original/proyecto.git
+  git fetch upstream
+
+ACTUALITZAR AMB MERGE
+  git fetch upstream
+  git merge upstream/master
+
+
+
+????????????????????????
+
+git tag v2.0
+git merge "(Rama)"
+git reset -hard
+
+????????????????????????
+
+
+*********************************************************************************
 
 Referencies
 
 URL NETBEANS    http://panamahitek.com/guia-basica-sobre-el-uso-de-git-y-github/
+COLOBORAR AMB UN PROJECTA
+                http://panamahitek.com/como-contribuir-en-proyectos-con-git-y-github/
